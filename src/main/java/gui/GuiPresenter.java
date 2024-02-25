@@ -27,7 +27,7 @@ public class GuiPresenter {
 	private final ImagefolderPanelPresenter imagefolderPanelPresenter;
 	private final ImagePanelController imagePanelController = new ImagePanelController();
 	private ListSelectionListener listSelectionListener;
-	private boolean menuShown;
+	private boolean menuShown = true;
 
 	public GuiPresenter(GuiController controller) {
 		this.controller = controller;

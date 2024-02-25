@@ -367,7 +367,7 @@ public class Gui {
 		gbc_pnlSideBar.gridx = 0;
 		gbc_pnlSideBar.gridy = 0;
 		containerMenu.add(pnlSideBar, gbc_pnlSideBar);
-		containerMenu.setVisible(false);
+		containerMenu.setVisible(true);
 		spMenu.setResizeWeight(0.0);
 		spMenu.setDividerSize(0);
 		frame.getContentPane().add(spMenu, BorderLayout.CENTER);
