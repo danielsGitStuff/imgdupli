@@ -340,7 +340,7 @@ public class Gui {
 		txtFileTypes = new JTextField();
 		txtFileTypes.setBorder(BorderFactory.createEmptyBorder());
 		txtFileTypes.setBackground(GuiColours.TXTEDIT_BACKGRND);
-		txtFileTypes.setText("jpg,jpeg,png,bmp,psd");
+		txtFileTypes.setText("jpg,jpeg,png,bmp,psd,dng");
 		GridBagConstraints gbc_txtFileTypes = new GridBagConstraints();
 		gbc_txtFileTypes.insets = new Insets(0, 0, 5, 0);
 		gbc_txtFileTypes.fill = GridBagConstraints.BOTH;
